@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+}
+
+.contact-container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 900px;
+}
+
+.contact-left, .contact-right {
+    padding: 40px;
+}
+
+.contact-left {
+    background-color: #f9fbff;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-image {
+    width: 100%;
+    height: auto;
+}
+
+.contact-left h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-left p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.live-chat-btn {
+    background-color: #00c29a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.live-chat-btn:hover {
+    background-color: #00a883;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-right {
+    width: 50%;
+}
+
+.contact-right h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.contact-right input, .contact-right textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+}
+
+.contact-right input:focus, .contact-right textarea:focus {
+    border-color: #00c29a;
+}
+
+.send-message-btn {
+    background-color: #3f82f5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-message-btn:hover {
+    background-color: #3369d1;
+}

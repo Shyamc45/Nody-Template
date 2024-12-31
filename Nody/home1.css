@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color: #343a40;
+    --primary-font: "Rubik", sans-serif;
+    --secondary-color: #9b9bae;
+    --secondary-font: "Mulish", sans-serif;
+    --btn-color: #3956de12;
+}
+Body {
+    background-color: var(--btn-color);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    width: 60%;
+    position: fixed;
+    background: transparent;
+}
+.logo img{
+    height: 26px;
+    width: 106px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    font-size: 15px;
+    font-family: var(--secondary-font);
+
+}
+nav ul li a{
+    color: #9B9BAE;
+    text-decoration: none;
+    margin-left: 25px;
+
+    &:hover {
+        color: rgba(14, 14, 210, 0.897);
+    }
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f2f5fc;
+}
+
+.hero h1 {
+    font-family: var(--primary-font);
+    font-size: 44px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 8%;
+}
+
+.hero p {
+    font-family: var(--secondary-font);
+    color: #999;
+    margin-top: 10px;
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #4567FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.btn:hover {
+    transition: all 0.3s;
+    transform: translateY(-1.7px);
+}
+.hero .hero-bottom img{
+    height: auto;
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+}
